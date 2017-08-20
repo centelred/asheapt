@@ -1,272 +1,392 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour appversion="5.2.0" start="node1" apprev="15969">
   <panorama id="node1">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="-0.2" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="-0.8" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="-0.8" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="-0.2" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="292.5">
-      <start tilt="7.35368" pan="-0.326935" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="292.5" fovmode="0">
+      <start pan="-0.326935" tilt="7.35368" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="The Front Gate" source="" latitude="35.626039" author="" comment="" tags="asheville apt" title="The Front Gate" datetime="7/31/2017 8:18 PM" info="" copyright="" longitude="-82.554867" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.554867" description="The Front Gate" latitude="35.626039" datetime="7/31/2017 8:18 PM" tags="asheville apt" customnodeid="" title="The Tree House - Asheville NC" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="17.36" id="Point01" pan="-15.03" target="" skinid="ht_node" title="Front Stairs" url="{node8}"/>
-      <hotspot description="" tilt="19.1" id="Point02" pan="-5.28" target="" skinid="ht_node" title="The Patio" url="{node3}"/>
-      <hotspot description="" tilt="-1.79" id="Point03" pan="16.56" target="" skinid="ht_node" title="HOT TUB!!" url="{node2}"/>
-      <hotspot description="" tilt="-21.09" id="Point04" pan="139.35" target="" skinid="ht_node" title="Onbark Ridge Overlook" url="{node11}"/>
-      <hotspot description="2017 Mazda 3 GT Hatch" tilt="-46.59" id="Point05" pan="-84.26" target="_blank" skinid="ht_image" title="The Driveway" url="images/0730172004b-1.jpg"/>
-      <hotspot description="" tilt="-46.1" id="Point06" pan="-178.76" target="" skinid="ht_image" title="Street View" url="images/0731171003.jpg"/>
-      <hotspot description="" tilt="-38.02" id="Point07" pan="-123.78" target="" skinid="ht_image" title="Us @ Front Gate" url="images/0730172006.jpg"/>
-      <hotspot description="" tilt="-48.34" id="Point08" pan="140.83" target="" skinid="ht_image" title="Caged Animal" url="images/0730172005-1-1.jpg"/>
-      <hotspot description="" tilt="-11.78" id="Point09" pan="154.98" target="_blank" skinid="ht_url" title="Go to next location!" url="http://www.roundviewtours.com/mtnapt"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point06" description="" url="images/0731171003.jpg" pan="-178.76" target="" tilt="-46.1" skinid="ht_image" title="Street View"/>
+      <hotspot id="Point07" description="" url="images/0730172006.jpg" pan="-123.78" target="" tilt="-38.02" skinid="ht_image" title="Us @ Front Gate"/>
+      <hotspot id="Point10" description="Coolest Funkiest Small House In Asheville.&#xa;&#xa;Nestled high off the ground, surrounded by trees, the 'Treefort' makes you feel like you are staying in the woods yet you can be downtown in 5 minutes. Located in the highly desirable North Asheville area, you can literally walk to over 10 restaurants and bars within 6 minutes yet you can stare at views of the nearby mountains while sitting on the screened in sleeping porch.&#xa;&#xa;&lt;a href=&quot;https://www.homeaway.com/vacation-rental/p487556vb&quot; target=&quot;_blank&quot;>See More!&lt;/a>&#xa;" url="https://www.homeaway.com/vacation-rental/p487556vb" pan="-3.27" target="_blank" tilt="26.21" skinid="ht_info" title="Treefort w/ Hot tub"/>
+      <polyhotspot id="Poly01" description="" url="http://www.roundviewtours.com/mtnapt" target="_blank" title="The Mountain House">
+        <vertex pan="-142.64" tilt="4.31"/>
+        <vertex pan="-149.03" tilt="6.71"/>
+        <vertex pan="-158.89" tilt="5.13"/>
+        <vertex pan="-160.73" tilt="4.26"/>
+        <vertex pan="-164.01" tilt="5.08"/>
+        <vertex pan="-165.69" tilt="4.45"/>
+        <vertex pan="-171.37" tilt="1.39"/>
+        <vertex pan="-142.06" tilt="1.9"/>
+      </polyhotspot>
+      <polyhotspot id="Poly02" description="Onbark Ridge Overlook" url="{node11}" target="" title="Blue Ridge Parkway">
+        <vertex pan="-176.62" tilt="-11.83"/>
+        <vertex pan="152.15" tilt="-25"/>
+        <vertex pan="141.75" tilt="-21.52"/>
+        <vertex pan="177.77" tilt="-11.97"/>
+        <vertex pan="177.77" tilt="-11.97"/>
+      </polyhotspot>
+      <polyhotspot id="Poly03" description="" url="{node8}" target="" title="The Balcony">
+        <vertex pan="-16.81" tilt="12.06"/>
+        <vertex pan="-16.7" tilt="23.13"/>
+        <vertex pan="-10.18" tilt="23.88"/>
+        <vertex pan="-10.16" tilt="12.27"/>
+        <vertex pan="-10.04" tilt="12.39"/>
+      </polyhotspot>
+      <polyhotspot id="Poly04" description="" url="{node2}" target="" title="To The Hot Tub!">
+        <vertex pan="34.87" tilt="-13.65"/>
+        <vertex pan="26.38" tilt="-14.64"/>
+        <vertex pan="17.55" tilt="-7.66"/>
+        <vertex pan="21.77" tilt="-7.55"/>
+      </polyhotspot>
+      <polyhotspot id="Poly05" description="My Mazda3 GT Hatch" url="https://github.com/centelred/asheapt/blob/master/media/0730172004b-1.jpg?raw=true" target="_blank" title="The Driveway">
+        <vertex pan="-84.44" tilt="-44.29"/>
+        <vertex pan="93.96" tilt="-73.76"/>
+        <vertex pan="150.93" tilt="-46.73"/>
+        <vertex pan="-121.01" tilt="-38.11"/>
+        <vertex pan="-120.78" tilt="-38"/>
+        <vertex pan="-121.14" tilt="-38.13"/>
+        <vertex pan="-120.94" tilt="-37.94"/>
+      </polyhotspot>
+      <polyhotspot id="Poly06" description="" url="https://github.com/centelred/asheapt/blob/master/images/0730172005-1-1.jpg?raw=true" target="_blank" title="Caged Animal">
+        <vertex pan="150.07" tilt="-46.2"/>
+        <vertex pan="93.1" tilt="-72.87"/>
+        <vertex pan="93.35" tilt="-53.19"/>
+        <vertex pan="149.01" tilt="-25.86"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node2">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="3.8" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="1.8" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="1.8" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="3.8" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="270">
-      <start tilt="-30.5977" pan="-28.0379" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="270" fovmode="0">
+      <start pan="-28.0379" tilt="-30.5977" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="HOT TUB!!" source="" latitude="35.626022" author="" comment="" tags="asheville apt" title="HOT TUB!!" datetime="7/31/2017 8:18 PM" info="" copyright="" longitude="-82.554889" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.554889" description="HOT TUB!!" latitude="35.626022" datetime="7/31/2017 8:18 PM" tags="asheville apt" customnodeid="" title="HOT TUB!!" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-4.45" id="Point01" pan="144.98" target="" skinid="ht_node" title="The Front Gate" url="{node1}"/>
-      <hotspot description="Hot Tub Lights" tilt="-25.9" id="Point02" pan="-29.52" target="" skinid="ht_video_file" title="The Lights!" url="media/0731172231.mp4"/>
-      <hotspot description="" tilt="-15.42" id="Point03" pan="-5.17" target="" skinid="ht_image" title="The Robes" url="images/0730172119.jpg"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point02" description="Hot Tub Lights" url="media/0731172231.mp4" pan="-29.52" target="" tilt="-25.9" skinid="ht_video_file" title="The Lights!"/>
+      <hotspot id="Point03" description="" url="images/0730172119.jpg" pan="-5.17" target="" tilt="-15.42" skinid="ht_image" title="The Robes"/>
+      <polyhotspot id="Poly01" description="" url="{node1}" target="" title="Back To The Gate!">
+        <vertex pan="130.24" tilt="-7.98"/>
+        <vertex pan="159.12" tilt="-10.27"/>
+        <vertex pan="159.35" tilt="16.88"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node3">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="5.6" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="3.4" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="3.4" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="5.6" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="202.5">
-      <start tilt="-10.6353" pan="-19.1381" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="202.5" fovmode="0">
+      <start pan="-19.1381" tilt="-10.6353" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="The Patio" source="" latitude="35.625939" author="" comment="" tags="asheville apt" title="The Patio" datetime="7/31/2017 8:19 PM" info="" copyright="" longitude="-82.554761" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.554761" description="The Patio" latitude="35.625939" datetime="7/31/2017 8:19 PM" tags="asheville apt" customnodeid="" title="The Patio" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-16.79" id="Point01" pan="75.29" target="" skinid="ht_node" title="The Front Gate" url="{node1}"/>
-      <hotspot description="" tilt="-12.97" id="Point02" pan="107.17" target="" skinid="ht_node" title="Front Stairs" url="{node8}"/>
-      <hotspot description="" tilt="-11.26" id="Point03" pan="-58.61" target="" skinid="ht_node" title="The Kitchen" url="{node4}"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <polyhotspot id="Poly01" description="" url="{node4}" target="" title="The Kitchen">
+        <vertex pan="-45.66" tilt="-52.27"/>
+        <vertex pan="-71.63" tilt="-42.92"/>
+        <vertex pan="-71.39" tilt="18.89"/>
+        <vertex pan="-46.6" tilt="25.85"/>
+      </polyhotspot>
+      <polyhotspot id="Poly02" description="" url="{node8}" target="" title="Back To The Balcony">
+        <vertex pan="93.3" tilt="-42.34"/>
+        <vertex pan="93.02" tilt="19.56"/>
+        <vertex pan="121.33" tilt="17.84"/>
+        <vertex pan="120.8" tilt="-41.34"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="6.2" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="1.6" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="1.6" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="6.2" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="157.5">
-      <start tilt="-5.39229" pan="-10.801" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="157.5" fovmode="0">
+      <start pan="-10.801" tilt="-5.39229" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="The Kitchen" source="" latitude="35.626025" author="" comment="" tags="asheville apt" title="The Kitchen" datetime="7/31/2017 8:19 PM" info="" copyright="" longitude="-82.554944" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.554944" description="The Kitchen" latitude="35.626025" datetime="7/31/2017 8:19 PM" tags="asheville apt" customnodeid="" title="The Kitchen" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="65" id="Point01" pan="33.51" target="" skinid="ht_node" title="LOFT MUSIC!!" url="{node6}"/>
-      <hotspot description="" tilt="-14.05" id="Point02" pan="-145.76" target="" skinid="ht_node" title="The Bedroom/Living Area" url="{node5}"/>
-      <hotspot description="" tilt="-4.28" id="Point03" pan="72.93" target="" skinid="ht_node" title="The Patio" url="{node3}"/>
-      <hotspot description="" tilt="-5.62" id="Point04" pan="16.41" target="" skinid="ht_image" title="Megan's Fridge" url="images/0730172310.jpg"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" description="" url="{node6}" pan="33.51" target="" tilt="65" skinid="ht_node" title="LOFT MUSIC!!"/>
+      <hotspot id="Point04" description="" url="images/0730172310.jpg" pan="16.41" target="" tilt="-5.62" skinid="ht_image" title="Megan's Fridge"/>
+      <polyhotspot id="Poly01" description="" url="{node3}" target="" title="Back To The Patio">
+        <vertex pan="86.91" tilt="12.16"/>
+        <vertex pan="84.51" tilt="-24.18"/>
+        <vertex pan="73.84" tilt="-24.51"/>
+        <vertex pan="74.61" tilt="11.06"/>
+        <vertex pan="74.61" tilt="10.96"/>
+      </polyhotspot>
+      <polyhotspot id="Poly02" description="" url="{node5}" target="" title="The Bedroom">
+        <vertex pan="-167.52" tilt="-33.69"/>
+        <vertex pan="-146.51" tilt="-23.65"/>
+        <vertex pan="-151.5" tilt="-18.37"/>
+        <vertex pan="-158.3" tilt="-16.04"/>
+        <vertex pan="-162.13" tilt="-16.36"/>
+        <vertex pan="-164.1" tilt="-13.63"/>
+        <vertex pan="-170.97" tilt="-13"/>
+        <vertex pan="-173.71" tilt="-15.45"/>
+        <vertex pan="-176.8" tilt="-16.24"/>
+        <vertex pan="-178.26" tilt="-15.87"/>
+        <vertex pan="-178.2" tilt="-31.55"/>
+        <vertex pan="-170.92" tilt="-30.88"/>
+        <vertex pan="-170.65" tilt="-30.59"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="5.7" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="5.2" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="5.2" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="5.7" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="67.5">
-      <start tilt="-11.3117" pan="31.0428" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="67.5" fovmode="0">
+      <start pan="31.0428" tilt="-11.3117" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="The Bedroom/Living Area" source="" latitude="35.626017" author="" comment="" tags="asheville apt" title="The Bedroom/Living Area" datetime="7/31/2017 8:20 PM" info="" copyright="" longitude="-82.554919" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.554919" description="The Bedroom/Living Area" latitude="35.626017" datetime="7/31/2017 8:20 PM" tags="asheville apt" customnodeid="" title="The Bedroom/Living Area" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-8.3" id="Point01" pan="-36.3" target="" skinid="ht_node" title="The Kitchen" url="{node4}"/>
-      <hotspot description="" tilt="-3.5" id="Point02" pan="-18.69" target="" skinid="ht_node" title="The Patio" url="{node3}"/>
-      <hotspot description="" tilt="38.8" id="Point03" pan="-22.16" target="" skinid="ht_node" title="LOFT MUSIC!!" url="{node6}"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <polyhotspot id="Poly01" description="" url="{node6}" target="" title="To The Loft!">
+        <vertex pan="-11.89" tilt="-7.6"/>
+        <vertex pan="-13.46" tilt="35.88"/>
+        <vertex pan="-11.9" tilt="36.02"/>
+        <vertex pan="-11.74" tilt="39.58"/>
+        <vertex pan="-36.79" tilt="39.08"/>
+        <vertex pan="-37.4" tilt="37.46"/>
+        <vertex pan="-35.3" tilt="35.27"/>
+        <vertex pan="-39.2" tilt="-7.47"/>
+        <vertex pan="-38.91" tilt="-7.39"/>
+      </polyhotspot>
+      <polyhotspot id="Poly02" description="" url="{node4}" target="" title="Back To The Kitchen">
+        <vertex pan="-45.27" tilt="-8.43"/>
+        <vertex pan="-26.11" tilt="-9.37"/>
+        <vertex pan="-27.41" tilt="-13.42"/>
+        <vertex pan="-28.32" tilt="-10.4"/>
+        <vertex pan="-29.56" tilt="-10.66"/>
+        <vertex pan="-29.93" tilt="-11.52"/>
+        <vertex pan="-30.39" tilt="-16.51"/>
+        <vertex pan="-39.64" tilt="-16.1"/>
+        <vertex pan="-41.86" tilt="-14.23"/>
+        <vertex pan="-44.82" tilt="-14.35"/>
+        <vertex pan="-45.89" tilt="-13.35"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node6">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="5.2" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="0.5" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="0.5" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="5.2" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="315">
-      <start tilt="-15.2367" pan="-117.616" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="315" fovmode="0">
+      <start pan="-117.616" tilt="-15.2367" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="LOFT MUSIC!!" source="" latitude="35.626047" author="" comment="" tags="asheville apt" title="LOFT MUSIC!!" datetime="7/31/2017 8:21 PM" info="" copyright="" longitude="-82.555028" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.555028" description="LOFT MUSIC!!" latitude="35.626047" datetime="7/31/2017 8:21 PM" tags="asheville apt" customnodeid="" title="LOFT MUSIC!!" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-23.78" id="Point01" pan="-17.63" target="" skinid="ht_node" title="The Bedroom/Living Area" url="{node5}"/>
-      <hotspot description="" tilt="-15.47" id="Point02" pan="177.77" target="" skinid="ht_image" title="Meg &amp; I Loft" url="images/0730171814.jpg"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point02" description="" url="images/0730171814.jpg" pan="177.77" target="" tilt="-15.47" skinid="ht_image" title="Meg &amp; I Loft"/>
+      <polyhotspot id="Poly01" description="" url="{node5}" target="" title="Back To The Bedroom">
+        <vertex pan="-8.79" tilt="-29.05"/>
+        <vertex pan="-8.56" tilt="-10.39"/>
+        <vertex pan="-46.17" tilt="-3.19"/>
+        <vertex pan="-46.12" tilt="-12.26"/>
+        <vertex pan="-45.15" tilt="-12.61"/>
+        <vertex pan="-45.24" tilt="-14.67"/>
+        <vertex pan="-46.26" tilt="-14.97"/>
+        <vertex pan="-12.95" tilt="-33.89"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="4.6" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="2.3" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="2.3" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="4.6" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="270">
-      <start tilt="0" pan="0" projection="4" fov="70"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="270" fovmode="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="Front Stairs" source="" latitude="35.626053" author="" comment="" tags="asheville apt" title="Front Stairs" datetime="7/31/2017 8:27 PM" info="" copyright="" longitude="-82.554922" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.554922" description="Front Stairs" latitude="35.626053" datetime="7/31/2017 8:27 PM" tags="asheville apt" customnodeid="" title="Front Stairs" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-28.53" id="Point01" pan="36.8" target="" skinid="ht_node" title="HOT TUB!!" url="{node2}"/>
-      <hotspot description="" tilt="-41.32" id="Point03" pan="137.39" target="" skinid="ht_node" title="The Front Gate" url="{node1}"/>
-      <hotspot description="" tilt="-3.2" id="Point02" pan="-19.62" target="" skinid="ht_node" title="The Patio" url="{node3}"/>
-      <hotspot description="" tilt="-24.65" id="Point04" pan="158.78" target="" skinid="ht_node" title="Onbark Ridge Overlook" url="{node11}"/>
-      <hotspot description="" tilt="3.87" id="Point05" pan="-176.78" target="" skinid="ht_image" title="The Mountain View" url="images/0730171825.jpg"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" description="" url="{node2}" pan="36.8" target="" tilt="-28.53" skinid="ht_node" title="HOT TUB!!"/>
+      <hotspot id="Point05" description="" url="images/0730171825.jpg" pan="-176.78" target="" tilt="3.87" skinid="ht_image" title="The Mountain View"/>
+      <polyhotspot id="Poly01" description="" url="{node3}" target="" title="To The Patio">
+        <vertex pan="-27.05" tilt="-17.47"/>
+        <vertex pan="-27.83" tilt="15.34"/>
+        <vertex pan="-10.62" tilt="16.62"/>
+        <vertex pan="-10.97" tilt="4.35"/>
+        <vertex pan="-13.45" tilt="4.31"/>
+        <vertex pan="-15.65" tilt="2.73"/>
+        <vertex pan="-16.22" tilt="-0.59"/>
+        <vertex pan="-16.44" tilt="-3.19"/>
+        <vertex pan="-15.42" tilt="-4.04"/>
+        <vertex pan="-16.1" tilt="-5.79"/>
+        <vertex pan="-15.19" tilt="-12.2"/>
+        <vertex pan="-16.33" tilt="-18.52"/>
+        <vertex pan="-16.33" tilt="-18.52"/>
+      </polyhotspot>
+      <polyhotspot id="Poly02" description="" url="{node1}" target="" title="The Front Gate">
+        <vertex pan="152.13" tilt="-38.81"/>
+        <vertex pan="134.83" tilt="-34.02"/>
+        <vertex pan="127.17" tilt="-36.26"/>
+        <vertex pan="148.65" tilt="-42.86"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node11">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="-2.8" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="-0.1" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="-0.1" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="-2.8" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="112.5">
-      <start tilt="-12.43" pan="-2.28" projection="4" fov="90.9"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="112.5" fovmode="0">
+      <start pan="-2.28" tilt="-12.43" projection="4" fov="90.9"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="" source="" latitude="35.652953" author="" comment="" tags="blueridge parkway" title="Onbark Ridge Overlook" datetime="7/31/2017 11:09 AM" info="" copyright="" longitude="-82.485147" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.485147" description="" latitude="35.652953" datetime="7/31/2017 11:09 AM" tags="blueridge parkway" customnodeid="" title="Onbark Ridge Overlook" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-1.22" id="Point01" pan="-38.11" target="" skinid="ht_node" title="The Front Gate" url="{node1}"/>
-      <hotspot description="" tilt="5.49" id="Point02" pan="122.5" target="" skinid="ht_node" title="Blue Ridge Parkway" url="{node12}"/>
-      <hotspot description="" tilt="-6.65" id="Point03" pan="-119.2" target="" skinid="ht_image" title="Overlook" url="images/0731171317-1.jpg"/>
-      <hotspot description="" tilt="6.57" id="Point04" pan="106.93" target="" skinid="ht_image" title="Side of the road" url="images/0801171155.jpg"/>
-      <hotspot description="" tilt="-57.25" id="Point05" pan="-3.99" target="" skinid="ht_image" title="Mountains" url="images/0731171122_HDR.jpg"/>
-      <hotspot description="" tilt="2.53" id="Point06" pan="-108.84" target="" skinid="ht_image" title="The Welcome Center" url="images/0731171033_HDR.jpg"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" description="" url="{node1}" pan="-38.11" target="" tilt="-1.22" skinid="ht_node" title="The Tree House - Asheville NC"/>
+      <hotspot id="Point02" description="" url="{node12}" pan="122.5" target="" tilt="5.49" skinid="ht_node" title="Blue Ridge Parkway"/>
+      <hotspot id="Point03" description="" url="images/0731171317-1.jpg" pan="-119.2" target="" tilt="-6.65" skinid="ht_image" title="Overlook"/>
+      <hotspot id="Point04" description="" url="images/0801171155.jpg" pan="106.93" target="" tilt="6.57" skinid="ht_image" title="Side of the road"/>
+      <hotspot id="Point05" description="" url="images/0731171122_HDR.jpg" pan="-3.99" target="" tilt="-57.25" skinid="ht_image" title="Mountains"/>
+      <hotspot id="Point06" description="" url="images/0731171033_HDR.jpg" pan="-108.84" target="" tilt="2.53" skinid="ht_image" title="The Welcome Center"/>
     </hotspots>
     <media>
-      <lensflare alpha="80" color="0xffffff" tilt="-34.63" id="Lensflare01" pan="-1.88" type="1" blinding="50"/>
+      <lensflare id="Lensflare01" pan="-1.88" tilt="-34.63" type="1" color="0xffffff" blinding="50" alpha="80"/>
     </media>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
   <panorama id="node12">
-    <input levelbias="0.400" leveltilesize="510" height="1344" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingroll="0.9" width="1344" levelbiashidpi="0.400">
-      <level preload="0" height="1344" width="1344" predecode="0"/>
-      <level preload="0" height="672" width="672" predecode="0"/>
-      <level preload="1" height="336" width="336" predecode="1"/>
+    <input leveltilesize="510" levelingroll="0.9" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="0" height="1344" width="1344">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="90">
-      <start tilt="-8.78731" pan="-8.44116" projection="4" fov="84.0067"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max scaletofit="1" fovstereographic="270" tilt="90" pan="360" fov="120" fovfisheye="360"/>
+    <view pannorth="90" fovmode="0">
+      <start pan="-8.44116" tilt="-8.78731" projection="4" fov="84.0067"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fovstereographic="270" fov="120"/>
     </view>
-    <userdata description="Blue Ridge Parkway" source="" latitude="35.734908" author="" comment="" tags="blueridge parkway" title="Blue Ridge Parkway" datetime="7/31/2017 1:12 PM" info="" copyright="" longitude="-82.343978" customnodeid=""/>
+    <userdata source="" author="" longitude="-82.343978" description="Blue Ridge Parkway" latitude="35.734908" datetime="7/31/2017 1:12 PM" tags="blueridge parkway" customnodeid="" title="Blue Ridge Parkway" info="" comment="" copyright=""/>
     <hotspots height="20" wordwrap="1" width="180">
-      <label border="1" textalpha="1" height="20" enabled="1" background="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" borderalpha="1" backgroundalpha="1"/>
-      <polystyle mode="2" handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" borderalpha="1" backgroundalpha="0.2509803921568627"/>
-      <hotspot description="" tilt="-5.8" id="Point01" pan="-99.95" target="" skinid="ht_node" title="Onbark Ridge Overlook" url="{node11}"/>
-      <hotspot description="" tilt="-6.47" id="Point02" pan="149.01" target="" skinid="ht_node" title="The Front Gate" url="{node1}"/>
-      <hotspot description="" tilt="-33.2" id="Point03" pan="-71.7" target="" skinid="ht_image" title="" url="images/0731171313_Burst01.jpg"/>
-      <hotspot description="" tilt="-21.8" id="Point04" pan="117.31" target="" skinid="ht_image" title="Trailblazing" url="images/0731171153.jpg"/>
-      <hotspot description="" tilt="-7.85" id="Point05" pan="87.23" target="" skinid="ht_image" title="Dogs of the Mountain" url="images/0731171201_HDR.jpg"/>
+      <label backgroundcolor="0xffffff" textalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" border="1" enabled="1" height="20" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" borderalpha="1"/>
+      <polystyle backgroundcolor="0x000000" mode="2" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" description="" url="{node11}" pan="-99.95" target="" tilt="-5.8" skinid="ht_node" title="Onbark Ridge Overlook"/>
+      <hotspot id="Point02" description="" url="{node1}" pan="149.01" target="" tilt="-6.47" skinid="ht_node" title="The Tree House - Asheville NC"/>
+      <hotspot id="Point03" description="" url="images/0731171313_Burst01.jpg" pan="-71.7" target="" tilt="-33.2" skinid="ht_image" title=""/>
+      <hotspot id="Point04" description="" url="images/0731171153.jpg" pan="117.31" target="" tilt="-21.8" skinid="ht_image" title="Trailblazing"/>
+      <hotspot id="Point05" description="" url="images/0731171201_HDR.jpg" pan="87.23" target="" tilt="-7.85" skinid="ht_image" title="Dogs of the Mountain"/>
     </hotspots>
     <media>
-      <lensflare alpha="80" color="0xffffff" tilt="-40.03" id="Lensflare01" pan="14.39" type="1" blinding="50"/>
+      <lensflare id="Lensflare01" pan="14.39" tilt="-40.03" type="1" color="0xffffff" blinding="50" alpha="80"/>
     </media>
-    <transition zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomspeed="2" softedge="10" enabled="1" type="diptocolor" zoomin="0" zoomout="0"/>
-    <autorotate nodedelay="30.00" returntohorizon="0.000" delay="3.00" enabled="1" speed="0.200" useanimation="0" noderandom="0" startloaded="1"/>
-    <flyintransition enabled="1" speed="0.70"/>
+    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" enabled="1" type="diptocolor" zoomin="0" softedge="10" blendtime="1"/>
+    <autorotate speed="0.200" returntohorizon="0.000" delay="3.00" noderandom="0" nodedelay="30.00" useanimation="0" startloaded="1" enabled="1"/>
+    <flyintransition speed="0.70" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" sensitivity="8" invertcontrol="1" invertwheel="0"/>
+    <control invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedwheel="0" lockedmouse="0" hideabout="0" simulatemass="1" speedwheel="1" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8"/>
   </panorama>
 </tour>

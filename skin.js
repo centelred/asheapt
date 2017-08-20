@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.0/15969
 // Filename: silhouetteEDIT1.ggsk
-// Generated Sat Aug 19 09:19:51 2017
+// Generated Sun Aug 20 16:13:29 2017
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -1562,7 +1562,7 @@ function pano2vrSkin(player,base) {
 		this._informationbg.className='ggskin ggskin_rectangle ';
 		this._informationbg.ggType='rectangle';
 		hs ='';
-		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='background : rgba(53,55,56,0.784314);';
 		hs+='border : 0px solid #ffffff;';
 		hs+='cursor : default;';
 		hs+='height : 250px;';
@@ -1615,7 +1615,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 274px;';
 		hs+='height: 193px;';
 		hs+='border: 0px solid #000000;';
-		hs+='color: rgba(255,255,255,1);';
+		hs+='color: rgba(28,114,142,1);';
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
@@ -1665,7 +1665,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 243px;';
 		hs+='height: 20px;';
 		hs+='border: 0px solid #000000;';
-		hs+='color: rgba(255,255,255,1);';
+		hs+='color: rgba(28,114,142,1);';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 0px 1px 0px 1px;';
